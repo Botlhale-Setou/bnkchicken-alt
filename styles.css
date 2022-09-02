@@ -1,0 +1,40 @@
+@media only screen and (max-width: 768px){
+	.d {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 768px){
+	.m {
+		display: none;
+	}
+
+	.nav-item {
+		padding-right: 4px;
+		text-decoration: none;
+	}
+}
+
+/* ==============GLOBAL STYLE PROPERTIES============= */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid yellow;
+	height: 40px;
+}
+
+#nav-logo {
+	padding-left: 8vw;
+}
+
+#nav-button-group {
+	padding-right: 8vw;
+	display: flex;
+}
