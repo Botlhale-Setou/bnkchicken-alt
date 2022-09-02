@@ -1,4 +1,4 @@
-# bnkchicken.github.io
+# bnkchicken
 
 ## Live Link
 
