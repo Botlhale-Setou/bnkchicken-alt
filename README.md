@@ -2,4 +2,4 @@
 
 ## Live Link
 
-[Click here]('www.bnkchicken.github.io') to view live webpage.
+[Click here](www.bnkchicken.github.io) to view live webpage.
