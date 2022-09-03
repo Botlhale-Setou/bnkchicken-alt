@@ -10,6 +10,15 @@
 	#burger-button {
 		border: none;
 		background: none;
+		transition-duration: 100ms;
+	}
+
+	#burger-button:hover {
+		transform: scale(1.1);
+	}
+
+	#burger-button:active {
+		transform: scale(1);
 	}
 }
 
@@ -27,10 +36,6 @@
 body {
   margin: 0;
   padding: 0;
-	background: url('./artwork/roast_chicken.jpg');
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position-y: 60px;
 }
 
 #navbar {
@@ -47,6 +52,15 @@ body {
 	height: 54px;
 	width: 60px;
 	margin-bottom: 2px;
+	transition: 100ms;
+}
+
+#nav-logo:hover {
+	transform: scale(1.1);
+}
+
+#nav-logo:active {
+	transform: scale(1);
 }
 
 #nav-button-group {
@@ -60,11 +74,15 @@ body {
 	color: black;
 }
 
+#hero-section {
+	
+}
+
 #heading1 {
 	color: white;
 	text-align: right;
 	font-size: 55px;
-	margin-right: 30px;
+	margin-right: 10vw;
 	line-height: 49px;
 	background-color: rgb(65, 65, 65);
 	opacity: 70%;
@@ -80,15 +98,41 @@ body {
 	background-color: rgb(150, 148, 148);
 	width:60px;
 	opacity: 60%;
+	transition-duration: 100ms;
+}
+
+#yes-button:hover {
+	transform: scale(1.1);
+	opacity: 83%;
+	cursor: grab;
+}
+
+#yes-button:active {
+	transform: scale(1);
+	color: green;
+	cursor: grabbing;
 }
 
 #no-button {
 	float: right;
 	color: white;
 	text-align: center;
-	margin-right: 30px;
+	margin-right: 10vw;
 	margin-top: 0;
 	background-color: rgb(150, 148, 148);
 	width: 60px;
 	opacity: 60%;
+	transition-duration: 100ms;
+}
+
+#no-button:hover {
+	transform: scale(1.1);
+	opacity: 83%;
+	cursor: grab;
+}
+
+#no-button:active {
+	transform: scale(1);
+	color: red;
+	cursor: grabbing;
 }
