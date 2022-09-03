@@ -36,10 +36,6 @@
 body {
   margin: 0;
   padding: 0;
-	background: url('./artwork/roast_chicken.jpg');
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position-y: 60px;
 }
 
 #navbar {
@@ -76,6 +72,10 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	color: black;
+}
+
+#hero-section {
+	
 }
 
 #heading1 {
